@@ -17,7 +17,7 @@ public class q1_AdjacencyMatrix {
         matrix[destination][source] = 1; // For undirected graph
     }
 
-    // Method to print matrix
+    
     void printMatrix() {
 
         System.out.println("Adjacency Matrix Representation:\n");
@@ -33,7 +33,7 @@ public class q1_AdjacencyMatrix {
         }
     }
 
-    // Main Method
+    
     public static void main(String[] args) {
 
         q1_AdjacencyMatrix graph = new q1_AdjacencyMatrix(4);
